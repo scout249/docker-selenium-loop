@@ -1,3 +1,3 @@
-# docker-seleniumloop
+# docker-selenium-loop
 
-`Seleniumloop` loop through the directory and process webcrawler task.
+`docker-selenium-loop` loop through the directory and process webcrawler task.
