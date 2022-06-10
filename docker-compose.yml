@@ -1,7 +1,7 @@
-version: '3.9'
+version: "3.9"
 services:
   server:
     container_name: selenium
     volumes:
-      - './input:/data'
-    image: 'scout249/selenium-loop:latest'
+      - "./data:/data"
+    image: "scout249/selenium-loop:latest"
