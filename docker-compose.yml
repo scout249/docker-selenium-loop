@@ -1,8 +1,7 @@
-version: "3.9"
+version: '3.9'
 services:
-  python:
-    build: .
+  server:
+    container_name: selenium
     volumes:
       - './input:/data'
-    stdin_open: true
-    tty: true
+    image: 'scout249/selenium-loop:latest'
