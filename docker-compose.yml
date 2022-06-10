@@ -3,6 +3,6 @@ services:
   python:
     build: .
     volumes:
-      - './input:/config'
+      - './input:/data'
     stdin_open: true
     tty: true
